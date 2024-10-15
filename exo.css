@@ -1,0 +1,92 @@
+.container {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black; 
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px dashed black; 
+}
+
+.shaped-table {
+    width: 300px;
+    border-collapse: separate;
+    margin-top: 20px;
+}
+
+
+.shaped-table td{
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+
+.shaped-table tr:nth-child(2) td:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.rectangle {
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 0px; 
+    margin-top: 20px;
+}
+.ligne {
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.ligne.a{
+    width: 75px;
+}
+.ligne.b{
+    width: 200px;
+
+}
+.ligne.c{
+    margin-left: 75px;
+    text-align: right;
+}
+.ligne.d{
+    text-align: right;
+    width: 75px;
+}
+
+
+
+.row{
+    width: 300px;
+    height: 50px;
+    font-size: 0;
+}
+
+.row .box{
+    display: inline-block;
+    width: 15%;
+    height: 50px;
+    font-size: 1rem;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.red-row .box{
+    margin-top: 2px;
+    background-color: red;
+}
+.black-row .box{
+    background-color: black;
+}
+  
