@@ -178,3 +178,28 @@
     clear: both;
 }
 
+.containerbleu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid;
+}
+.rangee{
+  display: flex;
+  gap: 10px;
+}
+.boite{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border: 2px solid;
+}
+.rangee-1 .boite{
+  flex: 1 1 25%;
+
+}
